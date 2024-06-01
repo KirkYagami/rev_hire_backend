@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: revhire-user
-          image: saruku.azurecr.io/userservice:68
+          image: revacrwebapp.azurecr.io/userservice:68
           env:
           - name : DB_URL
             valueFrom: 
